@@ -18,13 +18,14 @@
   }
   
   .header {
-    background: linear-gradient(to right, var(--primary-purple), var(--primary-blue));
+    background-color: var(--primary-purple); /* Match the footer color */
     color: var(--white);
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  
   
   .header nav ul {
     display: flex;
@@ -112,3 +113,38 @@
     padding: 1rem;
     margin-top: auto;
   }
+
+  .signup-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--white);
+    border: 1px solid var(--primary-purple);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    display: block; /* Ensure the dropdown is visible */
+    list-style: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.75rem 1rem;
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: var(--primary-purple);
+    display: block;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+  }
+  

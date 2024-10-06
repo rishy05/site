@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SignUpButtons from './components/SignUpButtons';
 import Footer from './components/Footer';
+import './styles/global.css';
+import AboutUs from './components/About';
 
 function App() {
   return (
@@ -10,8 +12,8 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <SignUpButtons />
       </main>
+        <AboutUs/>
       <Footer />
     </div>
   );
