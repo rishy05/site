@@ -5,6 +5,7 @@ import SignUpButtons from './components/SignUpButtons';
 import Footer from './components/Footer';
 import './styles/global.css';
 import AboutUs from './components/About';
+import ITInternship from './components/Internship';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
       </main>
         <AboutUs/>
+        <ITInternship/>
       <Footer />
     </div>
   );

@@ -2,11 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeroSection = styled.section`
-  background-image: url('t.jpeg');
+  background-image: url('test.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 105vh;
   display: flex;
   align-items: center;
   justify-content: center;
